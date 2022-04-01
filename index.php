@@ -129,58 +129,59 @@ $user_name = 'Miguel'; // укажите здесь ваше имя
                                 </a>
                             </li>
                         </ul>
-                    <?php endif; ?>
-                    <!-- здесь должен быть PHP код, который показывает следующий тег по условию -->
-                    <ul class="header__user-nav">
-                        <li class="header__profile">
-                            <a class="header__profile-link" href="#">
-                                <div class="header__avatar-wrapper">
-                                    <img class="header__profile-avatar" src="img/userpic-medium.jpg" alt="Аватар профиля">
-                                </div>
-                                <div class="header__profile-name">
-                                    <span>
-                                        <!--здесь должно быть имя пользователя-->
-                                    </span>
-                                    <svg class="header__link-arrow" width="10" height="6">
-                                        <use xlink:href="#icon-arrow-right-ad"></use>
-                                    </svg>
-                                </div>
-                            </a>
-                            <div class="header__tooltip-wrapper">
-                                <div class="header__profile-tooltip">
-                                    <ul class="header__profile-nav">
-                                        <li class="header__profile-nav-item">
-                                            <a class="header__profile-nav-link" href="#">
-                                                <span class="header__profile-nav-text">
-                                                    Мой профиль
-                                                </span>
-                                            </a>
-                                        </li>
-                                        <li class="header__profile-nav-item">
-                                            <a class="header__profile-nav-link" href="#">
-                                                <span class="header__profile-nav-text">
-                                                    Сообщения
-                                                    <i class="header__profile-indicator">2</i>
-                                                </span>
-                                            </a>
-                                        </li>
 
-                                        <li class="header__profile-nav-item">
-                                            <a class="header__profile-nav-link" href="#">
-                                                <span class="header__profile-nav-text">
-                                                    Выход
-                                                </span>
-                                            </a>
-                                        </li>
-                                    </ul>
+                        <!-- здесь должен быть PHP код, который показывает следующий тег по условию -->
+                        <ul class="header__user-nav">
+                            <li class="header__profile">
+                                <a class="header__profile-link" href="#">
+                                    <div class="header__avatar-wrapper">
+                                        <img class="header__profile-avatar" src="img/userpic-medium.jpg" alt="Аватар профиля">
+                                    </div>
+                                    <div class="header__profile-name">
+                                        <span>
+                                            <!--здесь должно быть имя пользователя-->
+                                        </span>
+                                        <svg class="header__link-arrow" width="10" height="6">
+                                            <use xlink:href="#icon-arrow-right-ad"></use>
+                                        </svg>
+                                    </div>
+                                </a>
+                                <div class="header__tooltip-wrapper">
+                                    <div class="header__profile-tooltip">
+                                        <ul class="header__profile-nav">
+                                            <li class="header__profile-nav-item">
+                                                <a class="header__profile-nav-link" href="#">
+                                                    <span class="header__profile-nav-text">
+                                                        Мой профиль
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="header__profile-nav-item">
+                                                <a class="header__profile-nav-link" href="#">
+                                                    <span class="header__profile-nav-text">
+                                                        Сообщения
+                                                        <i class="header__profile-indicator">2</i>
+                                                    </span>
+                                                </a>
+                                            </li>
+
+                                            <li class="header__profile-nav-item">
+                                                <a class="header__profile-nav-link" href="#">
+                                                    <span class="header__profile-nav-text">
+                                                        Выход
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li>
-                            <a class="header__post-button button button--transparent" href="adding-post.html">Пост</a>
-                        </li>
-                    </ul>
+                            </li>
+                            <li>
+                                <a class="header__post-button button button--transparent" href="adding-post.html">Пост</a>
+                            </li>
+                        </ul>
                     </nav>
+                <?php endif; ?>
             </div>
         </div>
     </header>
